@@ -1,0 +1,6 @@
+andares = 0
+for i in range(1, 21):
+    andares = andares+1
+    if(i == 13):
+        continue
+    print (andares)

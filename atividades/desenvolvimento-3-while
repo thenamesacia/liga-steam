@@ -1,0 +1,9 @@
+andares  = 0
+
+while (andares <20):
+
+    andares = andares+1
+    if(andares == 13):
+        continue
+    print (andares)
+ 
