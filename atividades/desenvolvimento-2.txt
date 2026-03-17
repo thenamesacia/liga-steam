@@ -1,0 +1,14 @@
+rodas = 4
+peso = 2300
+pessoas = 4
+
+if rodas <= 3:
+    print("A melhor categoria é: A")
+elif rodas == 4 and pessoas <= 8 and peso <= 3500:
+    print("A melhor categoria é: B")
+elif rodas >= 4 and peso > 3500 and peso <= 6000:
+    print("A melhor categoria é: C")
+elif rodas >= 4 and pessoas > 8:
+    print("A melhor categoria é: D")
+elif rodas >= 4 and peso > 6000:
+    print("A melhor categoria é: E")
