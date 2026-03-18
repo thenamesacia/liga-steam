@@ -1,0 +1,36 @@
+def  calculadora ():
+
+    print ("Escolha uma operação ou digite 0 para Sair. \n 1. Soma \n 2. Subtracao \n 3. Multiplicacao \n 4.Divisao ")
+    operacao = int(input("Operacao: "))
+
+    while (operacao !=  0):
+     
+     num1 = float(input("Primeiro numero: "))
+     num2 = float(input("Segundo numero: "))
+
+     if (operacao == 1): 
+
+        return  num1 + num2
+    
+     elif (operacao == 2): 
+
+        return num1 - num2
+    
+     elif (operacao == 3):
+
+        return num1 * num2
+    
+     elif (operacao == 4): 
+
+        return num1 / num2
+    
+     elif (operacao == 0): 
+        break
+     
+     else: 
+      return print ("Essa operação não existe")
+
+    
+resultado = calculadora()
+
+print(f"Resultado: {resultado}")
